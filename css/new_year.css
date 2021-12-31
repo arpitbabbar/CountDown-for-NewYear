@@ -23,12 +23,18 @@ body, html {
     font-size: 4vh;
     text-align: center;
     animation-name: animate;
-    animation-duration: 4s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    transition: ease all 1s;
 }
   
 @keyframes animate {
-  from {color: white;}
-  to {color: yellow;}
+  0%   {color: white;}
+  25%  {color: blue;}
+  50%  {color: yellow;}
+  100% {color: black;}
 }
 .text {
     font-size: 12vh;
