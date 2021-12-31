@@ -10,7 +10,7 @@ body, html {
 }
 
 .bg {
-    background-image: url(new.jpg);
+    background-image: url(../pics/new.jpg);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -22,8 +22,14 @@ body, html {
     color: black;
     font-size: 4vh;
     text-align: center;
+    animation-name: animate;
+    animation-duration: 4s;
 }
-
+  
+@keyframes animate {
+  from {color: white;}
+  to {color: yellow;}
+}
 .text {
     font-size: 12vh;
 }

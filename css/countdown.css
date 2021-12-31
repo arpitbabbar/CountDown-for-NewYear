@@ -4,22 +4,22 @@ body, html {
   }
   
   .bg {
-    background-image: url(360_F_142190831_XTYlTDXLCBowmpxfltnx9w1tmfj2nvNA.jpg);
-  
+    background-image: url(../pics/360_F_142190831_XTYlTDXLCBowmpxfltnx9w1tmfj2nvNA.jpg);
     height: 100%;
-    
-
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
   }
 
-.container {
+  
+  .container {
     color: white;
     font-size: 4vh;
     text-align: center;
-}
+    
+  }
+
 
 .count {
   font-size: 8vh;
