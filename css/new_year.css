@@ -32,7 +32,7 @@ body, html {
   
 @keyframes animate {
   0%   {color: white;}
-  25%  {color: blue;}
+  25%  {color: orange;}
   50%  {color: yellow;}
   100% {color: black;}
 }
