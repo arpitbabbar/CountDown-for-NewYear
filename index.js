@@ -1,4 +1,4 @@
-const fireworkC = document.querySelector('.fireworks-container');
+
 const days = document.querySelector('.days');
 const hours = document.querySelector('.hours');
 const min = document.querySelector('.min');
@@ -29,13 +29,3 @@ const format = (time) => {
 countdown();
 setInterval(countdown,1000);
 
-const fireworks = new FireWorks(fireworkC, {
-    speed: 4,
-    acceleration: 1.05,
-    friction: 1,
-    gravity: 4,
-    particles: 400,
-    explosion: 10
-})
-
-fireworks.start();
