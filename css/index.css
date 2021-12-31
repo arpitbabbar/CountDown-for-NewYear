@@ -7,40 +7,14 @@
 body, html {
     height: 100%;
     font-family: Comic Sans MS;
+    background-color: palevioletred;
   }
 
-  #box {
-      /* float: left; */
+  .box {
+      
+    
   }
 
-  .bg1 {
-    background-image: url(../pics/countdouwn.jpg);
-    height: 100%;
-    width: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    float: right;
-  }
-
-.bg2 {
-    background-image: url(../pics/newyearceleb.jpeg);
-    height: 100%;
-    width: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* float: left; */
-}
-
-.count{
-    border: 1px solid black;
+  .opt {
     font-size: 5vh;
-    text-align: center;
-    left: 25%;
-    top: 50px;
-}
-
-.celeb {
-    border: 1px solid black;
-}
+  }
